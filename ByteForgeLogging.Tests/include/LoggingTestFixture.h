@@ -13,5 +13,5 @@ typedef struct LoggingTestFixture
     FILE* stderr_file;    
 } LoggingTestFixture;
 
-bool LoggingTestFixture_New(LoggingTestFixture** fixture);
+void LoggingTestFixture_New(LoggingTestFixture** fixture);
 void LoggingTestFixture_Free(LoggingTestFixture** fixture);

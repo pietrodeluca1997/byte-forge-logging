@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="include\LoggingTestFixture.h" />
-    <ClInclude Include="include\LoggingUnitTests.h" />
+    <ClInclude Include="include\LoggingTestFixture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LoggingUnitTests.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\LoggingTestFixture.c" />
-    <ClCompile Include="source\LoggingTests.c" />
-    <ClCompile Include="source\LoggingUnitTests.c" />
+    <ClCompile Include="source\LoggingTestFixture.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoggingTests.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoggingUnitTests.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{ffcb521e-28d9-4f31-8485-3f18bad45796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{0c83dd31-567f-45eb-a4b4-1f9451a66d0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
