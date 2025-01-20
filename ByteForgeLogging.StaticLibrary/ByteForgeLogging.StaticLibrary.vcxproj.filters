@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\ByteForgeLogging.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ByteForgeLogging\LogLevel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ByteForgeLogging\Logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ByteForgeLogging\LogMacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ByteForgeLogging\LogStyles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Logger.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LogLevel.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{79c7ec45-d1ee-42f0-bb35-a951c3f17b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{49b8e28c-d589-4384-b959-40f492e1b1f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

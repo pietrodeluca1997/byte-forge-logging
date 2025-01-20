@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\LoggingTestFixture.h" />
+    <ClInclude Include="include\LoggingUnitTests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\LoggingTestFixture.c" />
+    <ClCompile Include="source\LoggingTests.c" />
+    <ClCompile Include="source\LoggingUnitTests.c" />
+  </ItemGroup>
+</Project>
